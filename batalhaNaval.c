@@ -28,7 +28,7 @@ int main() {
         printf("\n");
         for ( int j = 0; j < 10; j++)
         {
-            printf("%d", tabuleiro[i][j]);
+            printf(" %d ", tabuleiro[i][j]);
 
         };
 };
@@ -36,21 +36,21 @@ int main() {
 //posicionar os barcos
 
 //barco 1
- tabuleiro[1][0] = 1;
- tabuleiro[1][1] = 1;
- tabuleiro[1][2] = 1;
+ tabuleiro[1][0] = 3;
+ tabuleiro[1][1] = 3;
+ tabuleiro[1][2] = 3;
 
  //barco 2
- tabuleiro[9][7] = 1;
- tabuleiro[8][7] = 1;
- tabuleiro[7][7] = 1;
+ tabuleiro[9][7] = 3;
+ tabuleiro[8][7] = 3;
+ tabuleiro[7][7] = 3;
 
  printf("\n\nEste é o tabuleiro com os barcos:\n");
     for (int i = 0; i < 10; i++){
         printf("\n");
         for ( int j = 0; j < 10; j++)
         {
-            printf("%d", tabuleiro[i][j]);
+            printf(" %d ", tabuleiro[i][j]);
 
         };
 };
